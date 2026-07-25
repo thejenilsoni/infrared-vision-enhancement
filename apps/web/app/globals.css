@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&display=swap");
-
 :root {
   --ink: #070a0b;
   --panel: #0d1112;
@@ -24,7 +22,8 @@ body {
   margin: 0;
   background: var(--ink);
   color: var(--text);
-  font-family: "Manrope", sans-serif;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
 }
 
 body {
@@ -176,7 +175,7 @@ header {
   align-items: center;
   gap: 24px;
   color: #687273;
-  font: 400 10px/1 "DM Mono", monospace;
+  font: 400 10px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   letter-spacing: 0.08em;
 }
 
@@ -225,7 +224,7 @@ header {
 .panel-heading p {
   margin-bottom: 7px;
   color: var(--acid);
-  font: 400 9px/1 "DM Mono", monospace;
+  font: 400 9px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   letter-spacing: 0.16em;
 }
 
@@ -247,7 +246,7 @@ header {
   border: 0;
   background: transparent;
   color: #647071;
-  font: 400 10px/1 "DM Mono", monospace;
+  font: 400 10px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   cursor: pointer;
 }
 
@@ -372,7 +371,7 @@ header {
   border: 1px solid rgba(255, 255, 255, 0.16);
   background: rgba(5, 7, 8, 0.73);
   color: #d8dddd;
-  font: 500 9px/1 "DM Mono", monospace;
+  font: 500 9px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   backdrop-filter: blur(8px);
@@ -427,7 +426,7 @@ header {
   padding: 5px 7px;
   background: var(--acid);
   color: #10140d;
-  font: 500 8px/1 "DM Mono", monospace;
+  font: 500 8px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   text-transform: uppercase;
 }
 
@@ -443,7 +442,7 @@ header {
   gap: 8px;
   background: rgba(5, 7, 8, 0.75);
   color: #d9dede;
-  font: 400 8px/1 "DM Mono", monospace;
+  font: 400 8px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   backdrop-filter: blur(8px);
 }
 
@@ -529,13 +528,13 @@ header {
 
 .file-data strong {
   max-width: 440px;
-  font: 500 10px/1 "DM Mono", monospace;
+  font: 500 10px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   letter-spacing: 0.05em;
 }
 
 .file-data span {
   color: #606a6b;
-  font: 400 8px/1 "DM Mono", monospace;
+  font: 400 8px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   letter-spacing: 0.08em;
 }
 
@@ -576,14 +575,14 @@ header {
 .metric span,
 .gain span {
   color: var(--muted);
-  font: 400 8px/1 "DM Mono", monospace;
+  font: 400 8px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
 .metric strong,
 .gain strong {
-  font: 400 20px/1 "DM Mono", monospace;
+  font: 400 20px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
 
 .metric small {
@@ -648,7 +647,7 @@ header {
 .control-group h3 {
   margin: 0 0 16px;
   color: #9ca5a5;
-  font: 500 9px/1 "DM Mono", monospace;
+  font: 500 9px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -675,7 +674,7 @@ header {
 }
 
 .colormap-grid button span {
-  font: 400 9px/1 "DM Mono", monospace;
+  font: 400 9px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
 
 .colormap-grid button.active {
@@ -703,7 +702,7 @@ header {
 
 .control b {
   color: #dce1e1;
-  font: 400 10px/1 "DM Mono", monospace;
+  font: 400 10px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
 
 .control input {
@@ -755,7 +754,7 @@ header {
 }
 
 .region-summary strong {
-  font: 400 18px/1 "DM Mono", monospace;
+  font: 400 18px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
 
 .disclosure {
@@ -797,7 +796,7 @@ header {
   justify-content: center;
   gap: 9px;
   border: 0;
-  font: 600 10px/1 "DM Mono", monospace;
+  font: 600 10px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   cursor: pointer;
@@ -853,7 +852,7 @@ header {
 .runtime {
   margin: 12px 0 0;
   color: #505a5b;
-  font: 400 8px/1 "DM Mono", monospace;
+  font: 400 8px/1 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   text-align: center;
   letter-spacing: 0.08em;
 }
