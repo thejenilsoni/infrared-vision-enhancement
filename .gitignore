@@ -1,0 +1,26 @@
+# JavaScript
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment and generated outputs
+.env
+.env.local
+*.onnx
+*.pt
+outputs/
+uploads/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

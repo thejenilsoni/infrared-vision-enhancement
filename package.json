@@ -1,0 +1,17 @@
+{
+  "name": "infrared-vision-enhancement",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@iris/web",
+    "build": "npm run build --workspace=@iris/web",
+    "lint": "npm run lint --workspace=@iris/web",
+    "test:inference": "python3 -m unittest discover -s services/inference/tests -v"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
